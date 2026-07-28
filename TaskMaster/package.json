@@ -41,9 +41,6 @@
     "metro-react-native-babel-preset": "^0.77.0",
     "react-test-renderer": "18.2.0"
   },
-  "jest": {
-    "preset": "react-native"
-  },
   "detox": {
     "test-runner": "jest"
   },
