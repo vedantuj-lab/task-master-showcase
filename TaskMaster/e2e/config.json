@@ -1,0 +1,4 @@
+{
+  "setupFilesAfterEach": ["./init.js"],
+  "testEnvironment": "node"
+}
