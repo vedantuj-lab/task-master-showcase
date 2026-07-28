@@ -1,7 +1,13 @@
 import React from 'react';
 import { fireEvent, render, waitFor } from '@testing-library/react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import HomeScreen from '../src/screens/HomeScreen';
+
+beforeEach(async () => {
+  await AsyncStorage.clear();
+});
+
 
 const renderScreen = () =>
   render(
