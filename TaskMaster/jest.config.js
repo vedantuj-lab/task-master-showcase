@@ -1,7 +1,7 @@
 module.exports = {
   preset: 'react-native',
   setupFiles: ['<rootDir>/setupTests.js'],
-  setupFilesAfterEach: ['@testing-library/jest-native/extend-expect'],
+  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
   moduleFileExtensions: ['js', 'jsx', 'json'],
   transformIgnorePatterns: [
     'node_modules/(?!(jest-)?react-native|@react-native|@react-navigation|react-native-.*|@react-native-async-storage)',
